@@ -5,9 +5,13 @@ The project will classify various imaging images such as Xray and colonoscopy by
 
 As part of the project, a quality CNN network must be developed that includes:
 • Augmentation
+
 • Several stages of training
+
 • Monitoring of training.
+
 • Optimization of hyper parameters.
+
 • Execution of Classifier based on features from the network.
 
 DATA:
