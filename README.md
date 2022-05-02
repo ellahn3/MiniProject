@@ -17,7 +17,7 @@ DATA:
 *Chest X-Rays in Patients with Pneumonia
 
 *Normal Chest X-Rays
-ג
+
 # Project structure
 The project contains:
 
