@@ -11,8 +11,11 @@ As part of the project, a quality CNN network must be developed that includes:
 • Execution of Classifier based on features from the network.
 
 DATA:
+
 *Chest X-Rays in Patients with COVID-19  (Winner of the COVID-19 Dataset Award by Kaggle Community)
+
 *Chest X-Rays in Patients with Pneumonia
+
 *Normal Chest X-Rays
 ג
 # Project structure
