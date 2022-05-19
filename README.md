@@ -44,6 +44,17 @@ We don't actually count the activation functions and the max/ average pooling la
 
 so totaling this it gives us a 1 + 9 + 12 + 18 + 9 + 1 = 50 layers Deep Convolutional network.
 
+Found 13953 images belonging to 3 classes.
+Found 600 images belonging to 3 classes.
+Found 600 images belonging to 3 classes.
+
+trian size COVID 3216
+trian size Normal 9792
+trian size Viral Pneumonia 945
+
+test size COVID  200
+test size large  200
+test size Viral Pneumonia  200
 
 ### results:
 
