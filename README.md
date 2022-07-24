@@ -14,6 +14,8 @@ As part of the project, a quality CNN network was developed, that includes:
 
 • Execution of Classifier based on features from the network.
 
+• Class Weight
+
 ### DATA:
 
 The data contain 3 types of chest x-ray
@@ -27,6 +29,26 @@ COVID-19 (coronavirus disease 2019) is an illness caused by a virus. This virus 
 Pneumonia is an infection in one or both of the lungs. It causes the air sacs of the lungs to fill up with fluid or pus. It can range from mild to severe, depending on the type of germ causing the infection, your age, and your overall health.
 
 3- Normal Chest X-Rays
+
+![image](https://user-images.githubusercontent.com/73067197/180635429-ebd128fa-b8a4-4039-af9b-be038388a1ea.png)
+
+Found 13953 images belonging to 3 classes.
+
+Found 600 images belonging to 3 classes.
+
+Found 600 images belonging to 3 classes.
+
+trian size COVID 3216
+
+trian size Normal 9792
+
+trian size Viral Pneumonia 945
+
+test size COVID  200
+
+test size large  200
+
+test size Viral Pneumonia  200
 
 ### ResNet-50 Model:
 ResNet-50 is a convolutional neural network that is 50 layers deep. ResNet, short for Residual Networks. The resnet 50 architecture contains the following element:
@@ -44,17 +66,11 @@ We don't actually count the activation functions and the max/ average pooling la
 
 so totaling this it gives us a 1 + 9 + 12 + 18 + 9 + 1 = 50 layers Deep Convolutional network.
 
-Found 13953 images belonging to 3 classes.
-Found 600 images belonging to 3 classes.
-Found 600 images belonging to 3 classes.
+![image](https://user-images.githubusercontent.com/73067197/180635379-cd182441-d005-4709-a8d7-f25d2a1c4f72.png)
 
-trian size COVID 3216
-trian size Normal 9792
-trian size Viral Pneumonia 945
 
-test size COVID  200
-test size large  200
-test size Viral Pneumonia  200
+
+
 
 ### results:
 
@@ -70,6 +86,18 @@ The results is reported as the accuracy of each classifier, using the following 
 
 • Plot
 
+![image](https://user-images.githubusercontent.com/73067197/180635533-6b8f0613-35d0-4aba-be8a-298c39a2135f.png)
 
+
+![image](https://user-images.githubusercontent.com/73067197/180635464-4c1f762b-b827-4cd9-9676-3284fca457b8.png)
+
+
+### Advantages 
+• Successful neural network- ResNet50           
+
+
+### Disadvantages
+• Amount of data
+• Difficulty level of Data
 
 
